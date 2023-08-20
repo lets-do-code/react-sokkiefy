@@ -21,25 +21,26 @@ const Team = () => {
                                 <img
                                     className="img-fluid rounded-circle mb-4"
                                     src={Founder}
-                                    alt=""
+                                    alt="founder"
                                 />
                                 <h5>Abhijeet Singh</h5>
                                 <span>CEO &amp; Founder</span>
                             </div>
                             <div className="d-flex justify-content-center p-4">
-                                <a className="btn btn-square mx-1" href="">
+                                <a className="btn btn-square mx-1" href="/">
                                     <i className="fab fa-facebook-f" />
                                 </a>
-                                <a className="btn btn-square mx-1" href="">
+                                <a className="btn btn-square mx-1" href="/">
                                     <i className="fab fa-twitter" />
                                 </a>
-                                <a className="btn btn-square mx-1" href="">
+                                <a className="btn btn-square mx-1" href="/">
                                     <i className="fab fa-instagram" />
                                 </a>
                                 <a
                                     className="btn btn-square mx-1"
                                     href="https://www.linkedin.com/in/abhijeetsde"
                                     target="_blank"
+                                    rel="noreferrer"
                                 >
                                     <i className="fab fa-linkedin-in" />
                                 </a>
@@ -52,23 +53,23 @@ const Team = () => {
                                 <img
                                     className="img-fluid rounded-circle mb-4"
                                     src={CTO}
-                                    alt=""
+                                    alt="cto"
                                 />
                                 {/* <img class="img-fluid rounded-circle mb-4" src="img/team-3.jpg" alt=""> */}
                                 <h5>Divyanshu Sharma</h5>
                                 <span>CTO at Sokkiefy</span>
                             </div>
                             <div className="d-flex justify-content-center p-4">
-                                <a className="btn btn-square mx-1" href="">
+                                <a className="btn btn-square mx-1" href="/">
                                     <i className="fab fa-facebook-f" />
                                 </a>
-                                <a className="btn btn-square mx-1" href="">
+                                <a className="btn btn-square mx-1" href="/">
                                     <i className="fab fa-twitter" />
                                 </a>
-                                <a className="btn btn-square mx-1" href="">
+                                <a className="btn btn-square mx-1" href="/">
                                     <i className="fab fa-instagram" />
                                 </a>
-                                <a className="btn btn-square mx-1" href="" target="_blank">
+                                <a className="btn btn-square mx-1" href="/" target="_blank" rel="noreferrer">
                                     <i className="fab fa-linkedin-in" />
                                 </a>
                                 {/* https://www.linkedin.com/in/divyanshu-sharma-683856204/ */}
@@ -81,23 +82,23 @@ const Team = () => {
                                 <img
                                     className="img-fluid rounded-circle mb-4"
                                     src={CFO}
-                                    alt=""
+                                    alt="cfo"
                                 />
                                 {/* <img class="img-fluid rounded-circle mb-4" src="img/team-3.jpg" alt=""> */}
                                 <h5>Saurabh Sharma</h5>
                                 <span>CFO at Sokkiefy</span>
                             </div>
                             <div className="d-flex justify-content-center p-4">
-                                <a className="btn btn-square mx-1" href="">
+                                <a className="btn btn-square mx-1" href="/">
                                     <i className="fab fa-facebook-f" />
                                 </a>
-                                <a className="btn btn-square mx-1" href="">
+                                <a className="btn btn-square mx-1" href="/">
                                     <i className="fab fa-twitter" />
                                 </a>
-                                <a className="btn btn-square mx-1" href="">
+                                <a className="btn btn-square mx-1" href="/">
                                     <i className="fab fa-instagram" />
                                 </a>
-                                <a className="btn btn-square mx-1" href="" target="_blank">
+                                <a className="btn btn-square mx-1" href="/" target="_blank" rel="noreferrer">
                                     <i className="fab fa-linkedin-in" />
                                 </a>
                                 {/* https://www.linkedin.com/in/saurabh-sharma-335263207/ */}

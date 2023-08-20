@@ -24,6 +24,7 @@ const Testimonial = () => {
                                 className="img-fluid flex-shrink-0 rounded-circle"
                                 src={Testimonial1}
                                 style={{ width: 65, height: 65 }}
+                                alt='testimonial1'
                             />
                             <div className="ps-4">
                                 <h5 className="mb-1">Client Name</h5>
@@ -42,6 +43,7 @@ const Testimonial = () => {
                                 className="img-fluid flex-shrink-0 rounded-circle"
                                 src={Testimonial2}
                                 style={{ width: 65, height: 65 }}
+                                alt='testimonial2'
                             />
                             <div className="ps-4">
                                 <h5 className="mb-1">Client Name</h5>
@@ -60,6 +62,7 @@ const Testimonial = () => {
                                 className="img-fluid flex-shrink-0 rounded-circle"
                                 src={Testimonial3}
                                 style={{ width: 65, height: 65 }}
+                                alt='testimonial3'
                             />
                             <div className="ps-4">
                                 <h5 className="mb-1">Client Name</h5>
