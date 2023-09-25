@@ -19,7 +19,7 @@ const Footer = () => {
                         </p>
                         <p>
                             <i className="fa fa-map-marker-alt me-3" />
-                            DLF Phase 3, Sector 24, Gurugram, Haryana, India
+                            MOradabad Uttar Pradesh, India
                         </p>
                         <p>
                             <i className="fa fa-phone-alt me-3" />
