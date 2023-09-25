@@ -47,9 +47,9 @@ const Navbar = () => {
                                 <Link to="/testimonial" className="dropdown-item">
                                     Testimonial
                                 </Link>
-                                <Link to="/notfound" className="dropdown-item">
+{/*                                 <Link to="/notfound" className="dropdown-item">
                                     404 Page
-                                </Link>
+                                </Link> */}
                             </div>
                         </div>
                         <Link to="/career" className={`nav-item nav-link ${location.pathname === '/career' ? 'active' : ''}`}>
