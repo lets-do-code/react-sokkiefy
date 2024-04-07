@@ -510,7 +510,10 @@ h6,
 }
 
 .portfolio-item:hover .portfolio-overlay {
-    opacity: 1;
+    opacity: .8;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    overflow: hidden;
 }
 
 
