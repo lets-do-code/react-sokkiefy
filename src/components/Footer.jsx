@@ -4,10 +4,11 @@ import Portfolio2 from "../assets/portfolio-2.jpg"
 import Portfolio3 from "../assets/portfolio-3.jpg"
 import Portfolio4 from "../assets/portfolio-4.jpg"
 import Portfolio5 from "../assets/portfolio-5.jpg"
+import { Link } from 'react-router-dom'
 const Footer = () => {
     return (
         <div
-            className="container-fluid bg-primary text-light footer wow fadeIn"
+            className="container-fluid text-light footer wow fadeIn"
             data-wow-delay="0.1s"
         >
             <div className="container py-5 px-lg-5">
@@ -19,15 +20,17 @@ const Footer = () => {
                         </p>
                         <p>
                             <i className="fa fa-map-marker-alt me-3" />
-                            Moradabad Uttar Pradesh, India
+                            Sultanpur Uttar Pradesh, India
                         </p>
-                        <p>
+                        {/* <p className='text-white' href='tel:+919528295631'>
                             <i className="fa fa-phone-alt me-3" />
                             +919 5282 95631
-                        </p>
-                        <p>
-                            <i className="fa fa-envelope me-3" />
-                            help@sokkiefy.com
+                        </p> */}
+                        <p className='text-white'>
+                            <Link className='text-white' to='mailto:appiq@gmail.com'>
+                                <i className="fa fa-envelope me-3" />
+                                appiq@gmail.com
+                            </Link>
                         </p>
                         <div className="d-flex pt-2">
                             <a
@@ -138,14 +141,14 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
                             ©{" "}
-                            <a className="border-bottom" href="/">
-                                Sokkiefy
+                            <a className="" href="/">
+                                AppIQ
                             </a>
                             , All Right Reserved.
                             {/*/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. *** /*/}
                             Designed By{" "}
-                            <a className="border-bottom" href="/">
-                                Sokkiefy
+                            <a className="" href="/">
+                                AppIQ
                             </a>
                         </div>
                         <div className="col-md-6 text-center text-md-end">

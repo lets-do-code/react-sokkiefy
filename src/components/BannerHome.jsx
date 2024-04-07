@@ -3,7 +3,7 @@ import Hero from "../assets/hero.png"
 import { Link } from 'react-router-dom'
 const BannerHome = () => {
     return (
-        <div className="container-xxl bg-primary hero-header">
+        <div className="container-xxl  hero-header">
             <div className="container px-lg-5">
                 <div className="row g-5 align-items-end">
                     <div className="col-lg-6 text-center text-lg-start">

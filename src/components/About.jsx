@@ -8,18 +8,19 @@ const About = () => {
             <div className="container py-5 px-lg-5">
                 <div className="row g-5 align-items-center">
                     <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <p className="section-title text-secondary">
-                            About Us
+                        <p className="section-title text-secondary justify-content-start">
+                            <span />
+                            About
                             <span />
                         </p>
-                        <h1 className="mb-5">#1 Digital solution with 5 years of experience</h1>
-                        <p className="mb-4">
+                        <h1 className="mb-5 text-white">#1 Digital solution with 5 years of experience</h1>
+                        <p className="mb-4  text-white">
                             Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos
                             labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit
                             clita duo justo eirmod magna dolore erat amet
                         </p>
                         <div className="skill mb-4">
-                            <div className="d-flex justify-content-between">
+                            <div className="d-flex  text-white justify-content-between">
                                 <p className="mb-2">Mobile App Development</p>
                                 <p className="mb-2">95%</p>
                             </div>
@@ -34,7 +35,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="skill mb-4">
-                            <div className="d-flex justify-content-between">
+                            <div className="d-flex  text-white justify-content-between">
                                 <p className="mb-2">Web Development</p>
                                 <p className="mb-2">90%</p>
                             </div>
@@ -49,7 +50,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="skill mb-4">
-                            <div className="d-flex justify-content-between">
+                            <div className="d-flex  text-white justify-content-between">
                                 <p className="mb-2">UI Design &amp; Development</p>
                                 <p className="mb-2">85%</p>
                             </div>
@@ -63,12 +64,12 @@ const About = () => {
                                 />
                             </div>
                         </div>
-                        <a
+                        <button
                             href=""
-                            className="read btn btn-primary py-sm-3 px-sm-5 rounded-pill mt-3"
+                            className=" button py-sm-3 px-sm-5 rounded-pill mt-3"
                         >
                             Read More
-                        </a>
+                        </button>
                     </div>
                     <div className="col-lg-6">
                         <img

@@ -33,7 +33,9 @@ const App = () => {
 
   return (
 
-    <div class="container-xxl bg-white p-0">
+    <div class=" p-0" style={{
+      backgroundColor: "", background: "#2e333b",
+    }}>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

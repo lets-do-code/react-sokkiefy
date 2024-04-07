@@ -14,18 +14,18 @@ const Project = () => {
                         Our Projects
                         <span />
                     </p>
-                    <h1 className="text-center mb-5">Recently Completed Projects</h1>
+                    <h1 className="text-center text-white mb-5">Recently Completed Projects</h1>
                 </div>
                 <div className="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
                     <div className="col-12 text-center">
-                        <ul className="list-inline mb-5" id="portfolio-flters">
-                            <li className="mx-2 active" data-filter="*">
+                        <ul className="list-inline mb-5 text-white" id="portfolio-flters">
+                            <li className="mx-2 active text-white" data-filter="*">
                                 All
                             </li>
-                            <li className="mx-2" data-filter=".first">
+                            <li className="mx-2 text-white" data-filter=".first">
                                 Web Design
                             </li>
-                            <li className="mx-2" data-filter=".second">
+                            <li className="mx-2 text-white" data-filter=".second">
                                 Graphic Design
                             </li>
                         </ul>
@@ -53,7 +53,7 @@ const Project = () => {
                                 </div>
                             </div>
                             <div className="bg-light p-4">
-                                <p className="text-primary fw-medium mb-2">UI / UX Design</p>
+                                <p className="text-secondary fw-medium mb-2">UI / UX Design</p>
                                 <h5 className="lh-base mb-0">
                                     Digital Agency Website Design And Development
                                 </h5>
@@ -81,7 +81,7 @@ const Project = () => {
                                 </div>
                             </div>
                             <div className="bg-light p-4">
-                                <p className="text-primary fw-medium mb-2">UI / UX Design</p>
+                                <p className="text-secondary fw-medium mb-2">UI / UX Design</p>
                                 <h5 className="lh-base mb-0">
                                     Digital Agency Website Design And Development
                                 </h5>
@@ -109,7 +109,7 @@ const Project = () => {
                                 </div>
                             </div>
                             <div className="bg-light p-4">
-                                <p className="text-primary fw-medium mb-2">UI / UX Design</p>
+                                <p className="text-secondary fw-medium mb-2">UI / UX Design</p>
                                 <h5 className="lh-base mb-0">
                                     Digital Agency Website Design And Development
                                 </h5>
@@ -137,7 +137,7 @@ const Project = () => {
                                 </div>
                             </div>
                             <div className="bg-light p-4">
-                                <p className="text-primary fw-medium mb-2">UI / UX Design</p>
+                                <p className="text-secondary fw-medium mb-2">UI / UX Design</p>
                                 <h5 className="lh-base mb-0">
                                     Digital Agency Website Design And Development
                                 </h5>
@@ -165,7 +165,7 @@ const Project = () => {
                                 </div>
                             </div>
                             <div className="bg-light p-4">
-                                <p className="text-primary fw-medium mb-2">UI / UX Design</p>
+                                <p className="text-secondary fw-medium mb-2">UI / UX Design</p>
                                 <h5 className="lh-base mb-0">
                                     Digital Agency Website Design And Development
                                 </h5>
@@ -193,7 +193,7 @@ const Project = () => {
                                 </div>
                             </div>
                             <div className="bg-light p-4">
-                                <p className="text-primary fw-medium mb-2">UI / UX Design</p>
+                                <p className="text-secondary fw-medium mb-2">UI / UX Design</p>
                                 <h5 className="lh-base mb-0">
                                     Digital Agency Website Design And Development
                                 </h5>

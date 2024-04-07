@@ -2,11 +2,8 @@ import React from 'react'
 
 const Reach = () => {
     return (
-        <div
-            className="container-xxl bg-primary fact py-5 wow fadeInUp"
-            data-wow-delay="0.1s"
-        >
-            <div className="container py-5 px-lg-5">
+        <div className="fact py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div className=" py-5 px-lg-5">
                 <div className="row g-4">
                     <div
                         className="col-md-6 col-lg-3 text-center wow fadeIn"
@@ -34,7 +31,7 @@ const Reach = () => {
                     >
                         <i className="fa fa-users fa-3x text-secondary mb-3" />
                         <h1 className="text-white mb-2" data-toggle="counter-up">
-                            1000
+                            100
                         </h1>
                         <p className="text-white mb-0">Satisfied Clients</p>
                     </div>
@@ -44,7 +41,7 @@ const Reach = () => {
                     >
                         <i className="fa fa-check fa-3x text-secondary mb-3" />
                         <h1 className="text-white mb-2" data-toggle="counter-up">
-                            1100
+                            150
                         </h1>
                         <p className="text-white mb-0">Compleate Projects</p>
                     </div>

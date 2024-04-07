@@ -26,7 +26,7 @@ const AboutPage = () => {
             <Feature />
             <About />
             <Reach />
-            <Team />
+            {/* <Team /> */}
         </>
     )
 }

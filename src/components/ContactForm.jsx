@@ -10,16 +10,16 @@ const ContactForm = () => {
                         Contact Us
                         <span />
                     </p>
-                    <h1 className="text-center mb-5">Contact For Any Query</h1>
+                    <h1 className="text-center text-white mb-5">Contact For Any Query</h1>
                 </div>
                 <div className="row justify-content-center">
                     <div className="col-lg-7">
                         <div className="wow fadeInUp" data-wow-delay="0.3s">
-                            <p className="text-center mb-4">
+                            <p className="text-center text-white mb-4">
                                 The contact form is currently inactive. Get a functional and working
                                 contact form with Ajax &amp; PHP in a few minutes. Just copy and
                                 paste the files, add a little code and you're done.{" "}
-                                <a href="https://htmlcodex.com/contact-form">Download Now</a>.
+                                <a className='text-danger' href="https://htmlcodex.com/contact-form">Download Now</a>.
                             </p>
                             <form>
                                 <div className="row g-3">
@@ -69,7 +69,7 @@ const ContactForm = () => {
                                         </div>
                                     </div>
                                     <div className="col-12">
-                                        <button className="btn btn-primary w-100 py-3" type="submit" style={{ background: " #6222CC" }}>
+                                        <button className="button w-100 rounded py-3" type="submit" >
                                             Send Message
                                         </button>
                                     </div>

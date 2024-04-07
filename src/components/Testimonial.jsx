@@ -11,7 +11,7 @@ const Testimonial = () => {
                     Testimonial
                     <span />
                 </p>
-                <h1 className="text-center mb-5">What Say Our Clients!</h1>
+                <h1 className="text-center text-white mb-5">What Say Our Clients!</h1>
                 <div className="owl-carousel testimonial-carousel">
                     <div className="testimonial-item bg-light rounded my-4">
                         <p className="fs-5">

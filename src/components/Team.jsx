@@ -12,7 +12,7 @@ const Team = () => {
                         Our Team
                         <span />
                     </p>
-                    <h1 className="text-center mb-5">Our Team Members</h1>
+                    <h1 className="text-center text-white mb-5">Our Team Members</h1>
                 </div>
                 <div className="row g-4">
                     <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -57,7 +57,7 @@ const Team = () => {
                                 />
                                 {/* <img class="img-fluid rounded-circle mb-4" src="img/team-3.jpg" alt=""> */}
                                 <h5>Divyanshu Sharma</h5>
-                                <span>CTO at Sokkiefy</span>
+                                <span>CTO at AppIQ</span>
                             </div>
                             <div className="d-flex justify-content-center p-4">
                                 <a className="btn btn-square mx-1" href="/">
@@ -85,8 +85,8 @@ const Team = () => {
                                     alt="cfo"
                                 />
                                 {/* <img class="img-fluid rounded-circle mb-4" src="img/team-3.jpg" alt=""> */}
-                                <h5>Saurabh Sharma</h5>
-                                <span>CFO at Sokkiefy</span>
+                                <h5>Abhay Pratap</h5>
+                                <span>CFO at AppIQ</span>
                             </div>
                             <div className="d-flex justify-content-center p-4">
                                 <a className="btn btn-square mx-1" href="/">

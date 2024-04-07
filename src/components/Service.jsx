@@ -10,7 +10,7 @@ const Service = () => {
                         Our Services
                         <span />
                     </p>
-                    <h1 className="text-center mb-5">What Solutions We Provide</h1>
+                    <h1 className="text-center mb-5 text-white">What Solutions We Provide</h1>
                 </div>
                 <div className="row g-4">
                     <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">

@@ -3,13 +3,13 @@ import React from 'react'
 const Newsletter = () => {
     return (
         <div
-            className="container-xxl bg-primary newsletter py-5 wow fadeInUp"
+            className="container-xxl newsletter py-5 wow fadeInUp"
             data-wow-delay="0.1s"
         >
             <div className="container py-5 px-lg-5">
                 <div className="row justify-content-center">
                     <div className="col-lg-7 text-center">
-                        <p className="section-title text-white justify-content-center">
+                        <p className="section-title text-secondary justify-content-center">
                             <span />
                             Newsletter
                             <span />
@@ -31,7 +31,7 @@ const Newsletter = () => {
                                 type="button"
                                 className="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"
                             >
-                                <i className="fa fa-paper-plane text-primary fs-4" />
+                                <i className="fa fa-paper-plane fs-4" />
                             </button>
                         </div>
                     </div>

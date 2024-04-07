@@ -11,7 +11,7 @@ const Career = () => {
                         Internship Offer
                         <span />
                     </p>
-                    <h1 className="text-center mb-5">What Internship We Provide</h1>
+                    <h1 className="text-center text-white mb-5">What Internship We Provide</h1>
                 </div>
                 <div className="row g-4">
                     <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
